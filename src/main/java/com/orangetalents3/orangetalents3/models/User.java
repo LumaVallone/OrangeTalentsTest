@@ -31,7 +31,7 @@ public class User {
 	@NotNull(message = "A propriedade 'birthday' é obrigatória")
 	@Column(nullable = false)
 	private Date birthday;
-
+	
 	public Long getId() {
 		return id;
 	}
